@@ -1,12 +1,12 @@
 const inicioEstado= {
     productos:
     [
-        {id: 1, nombre: "Producto c"},
-        {id: 2, nombre: "Producto d"},
-        {id: 3, nombre: "Producto e"},
-        {id: 4, nombre: "Producto f"}
+        {id: 1, nombre: "Producto 1"},
+        {id: 2, nombre: "Producto 2"},
+        {id: 3, nombre: "Producto 3"},
+        {id: 4, nombre: "Producto 4"}
     ],
-    carrito: [1,2,3]
+    carrito: []
 }
 
 const reducer = (estado= inicioEstado, accion) => {
