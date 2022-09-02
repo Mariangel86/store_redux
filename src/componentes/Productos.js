@@ -80,7 +80,7 @@ const Boton = styled.button`
 			nombre:nombre
 
 		});
-	}
+			}
 		}
  }
   export default connect (mapStateToProps,mapDispatchToProps) (Productos);
