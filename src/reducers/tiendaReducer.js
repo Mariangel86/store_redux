@@ -10,8 +10,13 @@ const inicioEstado= {
 }
 
 const reducer = (estado= inicioEstado, accion) => {
+    switch (accion.type){
+    case 'AGREGAR_PRODUCTO_AL_CARRITO':
+        console.log(accion);
+        return estado;
+        default:
     return estado;
-    
+    }
   }
   
   export default reducer;

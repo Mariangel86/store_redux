@@ -33,7 +33,7 @@ const App =()=> {
 
 			nuevoCarrito.forEach((productoDeCarrito,index) => {
 			if (productoDeCarrito.id === idProductoAAgregar){
-				const cantidad=nuevoCarrito [index].cantidad;
+				const cantidad= nuevoCarrito[index].cantidad;
 				nuevoCarrito[index] ={ id: idProductoAAgregar, nombre:nombre, cantidad: cantidad + 1 }
 			}	
 		
@@ -66,11 +66,7 @@ const App =()=> {
       <Route path="/Blog" element={<Blog/>}/>
       
 	  <Route path="/Tienda" 
-	  element={<Tienda
-	  agregarProductoAlCarrito={agregarProductoAlCarrito}
-	  />}>
-		</Route>
-
+	  element={<Tienda/>}/>
       </Routes>
       </main>
       <aside>

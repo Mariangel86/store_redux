@@ -1,6 +1,6 @@
 import React from "react";
 import styled from "styled-components";
-import { Connect } from "react-redux";
+import { connect } from "react-redux";
 
 const Carrito = ({carrito}) => {
 
@@ -42,4 +42,4 @@ const Carrito = ({carrito}) => {
       carrito: estado.carrito}
    }
   
-  export default Connect (mapStateToProps) (Carrito);
+  export default connect (mapStateToProps) (Carrito);
